@@ -17,6 +17,9 @@ const Nav = styled.nav`
       color: rgba(0, 0, 0, 0.4);
       margin: 0.2em;
       font-size: 1.2rem;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 

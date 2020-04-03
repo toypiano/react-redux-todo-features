@@ -33,6 +33,7 @@ const StyledForm = styled.form`
     font-weight: bold;
     &:hover {
       opacity: 0.7;
+      cursor: pointer;
     }
     &:active {
       opacity: 1;

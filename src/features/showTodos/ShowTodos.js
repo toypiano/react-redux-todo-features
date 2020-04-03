@@ -19,6 +19,9 @@ const StyledTodo = styled.li`
   margin: 0 auto;
   padding: 1em 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  &:hover {
+    cursor: pointer;
+  }
 
   ${props => (props.completed ? completedMixin : null)};
 `;
